@@ -312,7 +312,7 @@ ggplot(shares, aes(x = car, y = share, fill = car))+
   ggtitle('Choice Share of Car Models')
 ```
 
-![](Choice_Modeling_Sports_Car_Sales_files/figure-markdown_github/unnamed-chunk-12-1.png)
+![](Images/plot1.png)
 
 ### **Choice Modeling with Hiercharchical Multinomial Logistic Regression**
 
@@ -522,7 +522,7 @@ head(share)
     ## 2       0.1252505   2    2 manual     yes    30   racer
     ## 3       0.3524358   3    2   auto      no    30   racer
 
-![](Choice_Modeling_Sports_Car_Sales_files/figure-markdown_github/plot-1.png)
+![](Images/plot2.png)
 
 In the final model, our client's proposed car takes a commanding choice share, with 52% of the simulated responses. Sounds like our client is going to be getting into the 2-seat sportscar market soon!
 
